@@ -1,0 +1,41 @@
+#xzw_box * {margin:0;}
+#xzw_box ul, #xzw_box li { list-style:none; list-style-type:none}
+#xzw_box {width:70%;overflow:hidden; height:90%; border:1px solid #ccc; margin:30px auto; font-size:15px;font-family:"微软雅黑";color: #454545; background:#fff}
+#xzw_box .content { padding:20px; height: 90%;width: 76%;margin: 30px;}
+#mu{width: 18%;float:right;}
+#xzw_box .tagMenu {height:100%; margin: 0px; background:#efefef; border-bottom:1px solid #999;margin-top: 50px;}
+#xzw_box .tagMenu h2 {font-size:12px; padding-left:10px;}
+#xzw_box ul.menu li {margin-bottom:1px; line-height: 65px; height:75px; margin:5px 0 0 -1px; border:1px solid #999; text-align:center; padding:0 12px; cursor:pointer}
+#xzw_box ul.menu li.current {border:1px solid #ccc;background:#fff; height:75px; line-height:65px; margin:0}
+#clears{clear: both;}
+#xzw_box .content .layout {display:none;margin-left: 1%;float:left;width: 97%;}
+#neirong{width: 80%;height:auto;float: left;}
+#neirong b{color: #5c2b88;font-size: 25px;font-weight: bolder;}
+#neirong p{	margin-top: 10px;text-indent:2em;}
+#bottom{
+	background-image: url("http://image.10mup.com/about.png");
+	background-repeat: repeat-x;
+}
+#im{
+	border:1px solid #ccc;
+	width: 78%;
+	height: auto;
+	float: left;
+}
+#im img{width: 100%;height: auto;}
+#im1{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-left: 0.5%;
+	margin-bottom:40px;
+}
+#im1 img{width: 95%;height: auto;float: left;}
+#bottom{line-height: 50px;}
+#crumbs{
+	font-size:14px;
+	width:70%;height:10px;
+    margin: 0 auto;
+}
+#crumbs a{color:#000;text-decoration:none;}
+#crumbs a:hover{text-decoration: underline;}

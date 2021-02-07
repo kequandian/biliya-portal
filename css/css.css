@@ -1,0 +1,62 @@
+#xzw_box * {margin:0;}
+#xzw_box ul, #xzw_box li { list-style:none; list-style-type:none}
+#xzw_box {width:960px; height:auto; border:1px solid #ccc; margin:30px auto;padding:10px; font-size:15px;font-family:"微软雅黑";color: #454545; background:#fff}
+#mu{width: 15%;height: 480px;float: right;}
+#xzw_box .tagMenu {height:auto; background:#efefef; border-bottom:1px solid #999;margin-top: 50px;}
+#xzw_box .tagMenu h2 {font-size:12px; padding-left:10px;}
+#xzw_box ul.menu li {margin-bottom:1px; line-height: 65px; height:75px; margin:5px 0 0 -1px; border:1px solid #999; text-align:center; padding:0 12px; cursor:pointer}
+#xzw_box ul.menu li.current {border:1px solid #999;background:#fff; height:75px; line-height:65px; margin:0}
+#xzw_box .content { padding:20px;}
+#xzw_box .content .layout {display:none;margin-left: 1%;margin-bottom:1%;}
+#main{
+	width: 25%;
+	height: auto;
+	border:#999 solid 1px;
+	cursor: pointer;
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.layout a{
+	color: #454545;
+}
+#im{
+	width: 100%;
+	height: 220px;
+}
+#im img{
+	width: 100%;
+	height: 100%;
+}
+#wenzi{
+	border-top: #999 solid 1px;
+	width: 100%;
+	height: 50px;
+	line-height: 3em;
+}
+#main:hover{
+	border:#5b2c88 solid 1px;
+}
+#main #wenzi:hover{
+	border-top:#5b2c88 solid 1px;
+}
+#bottom{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-image: url("http://image.10mup.com/about.png");
+	background-repeat: repeat-x;
+}
+#bottom{
+	line-height: 55px;
+}
+#chanpin{
+	clear: both;
+}
+#crumbs{
+	font-size:16px;
+	width:70%;height:30px;
+    margin: 0 auto;
+}
+#crumbs a{color:#000;text-decoration:none;}
+#crumbs a:hover{text-decoration: underline;}

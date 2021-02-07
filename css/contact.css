@@ -1,0 +1,15 @@
+#contact{
+	width: 900px;
+	height: auto;
+	margin:auto;
+	margin-top: 70px;
+}
+#contact p{margin-left: 75px;font-size: 13px;}
+#bottom{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background-image: url("http://image.10mup.com/about.png");
+	background-repeat: repeat-x;
+}
+#bottom{line-height: 55px;}

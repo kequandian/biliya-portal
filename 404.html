@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<title>404网页无法访问</title>
+<style>
+.error{margin-left: 360px;float:left;}
+ #top{margin-left: 450px;float:left;}
+ footer{margin-top: -10px; margin-left:180px;width: 1024px;height: 100px;text-align: center; }
+ a{text-decoration: none;}
+</style>
+</head>
+	<img src="http://image.10mup.com/404.png" class="error">
+            <div id="top">
+      		   <h2> 抱歉!  您访问的页面失联啦...</h2>
+					<p><font color="red" size="5px">HTTP 错误 404：</font>您正在搜索的页面可能已经删除、更名或暂时不可用。</p>
+					<p><span id="xm"><b>12</b></span>秒后返回频道首页</p>
+					<p>可能的原因：</p>
+					<p>1.检查浏览器地址栏中输入了错误的地址。2.你点击的某个链接已过期。</p>
+			</div>			
+			<div style="clear:both"></div>
+        <footer>
+				<p><a href="javascript:history.go(-1);">&#9666返回上一级页面&ensp;&ensp;&ensp;<a href="index.html">&#9666回到网站首页</a></a></p>		
+        </footer>
+<script type="text/javascript">
+var i = 11;
+var intervalid;
+var xm = document.getElementById("xm");
+intervalid = setInterval("fun()", 1200);
+function fun() {
+if (i == 0){
+window.location.href = "index.html";
+clearInterval(intervalid);
+}
+xm.innerHTML = i;
+i--;
+}
+</script>
+  </body>
+</html>

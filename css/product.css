@@ -1,0 +1,102 @@
+#xzw_box * {margin:0;}
+#xzw_box ul, #xzw_box li { list-style:none; list-style-type:none;}
+#xzw_box {width:960px; height:auto; border:1px solid #ccc; margin:50px auto; font-size:15px;font-family:"微软雅黑";color: #454545; background:#fff;}
+#xzw_box .tagMenu {height:auto; background:#efefef; border-bottom:1px solid #999;float: right;width: 20%;margin-top: 50px;}
+#xzw_box .tagMenu h2 {font-size:12px; padding-left:10px;}
+#xzw_box ul.menu li {margin-bottom:1px; line-height: 65px; height:75px; margin:5px 0 0 -1px; border:1px solid #999; text-align:center; padding:0 12px; cursor:pointer;}
+#xzw_box ul.menu li.current {border:1px solid #999; background:#fff; height:75px; line-height:65px; margin:0;}
+#xzw_box .content { padding:20px;}
+#xzw_box .content .layout {display:none;margin-left: 1%;height: auto;}
+#left{
+	width: 25%;
+	height: auto;
+	float: left;
+	border: #ccc solid 1px;
+	margin-right: 1%;
+	margin-top: 1%;
+}
+#left1{
+	width: 30%;
+	height: auto;
+	float: left;
+	border: #ccc solid 1px;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+#right{
+	width: 25%;
+	height:auto;
+	float: left;
+	border: #ccc solid 1px;
+	margin-top: 1%;
+}
+#min{
+	width: 25%;
+	height: auto;
+	float: left;
+	border: #ccc solid 1px;
+	margin-right: 1%;
+	margin-top: 1%;
+}
+#im{
+	width: 100%;
+	height: 230px;
+	float: left;
+	border-bottom: #ccc solid 1px;
+}
+#im img{
+	width: 100%;
+	height: 100%;
+}
+#im1{
+	width: 100%;
+	height: 340px;
+	float: left;
+	border-bottom: #ccc solid 1px;
+}
+#im1 img{
+	width: 100%;
+	height: 100%;
+}
+#im2{
+	width: 100%;
+	height: 320px;
+	float: left;
+}
+#im2 img{
+	width: 38%;
+	height: 220px;
+	float: left;
+	border: #ccc solid 1px;
+	margin-top: 1%;
+	margin-right: 1%;
+}
+#wenzi{
+	font-family:"微软雅黑";
+	font-size:12px;
+	letter-spacing: 2px;
+	width: 100%
+	height:200px;
+	float: left;
+	background-color: #ededed;
+	text-indent: 1em;
+	padding: 20px 20px 20px 20px;
+}
+.il{
+	color: #5d4292;
+	font-size: 16px;
+}
+.lo{
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+#bottom{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	background-image: url("http://image.10mup.com/about.png");
+	background-repeat: repeat-x;
+}
+#bottom{
+	line-height: 55px;
+}
